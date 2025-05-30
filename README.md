@@ -1,47 +1,56 @@
-# Discord Anti-Spam Bot
+# 🤖 Discord Anti-Spam Bot
 
-A simple yet effective Discord bot to detect and delete spam or scam content in Discord servers.
+A lightweight and effective Discord bot that detects and removes spam or scam messages to keep your community safe.
+
+---
 
 ## 🚀 Features
 
-- Detects and deletes messages containing common spam or scam keywords.
-- Automatically removes messages with suspicious links (excluding trusted domains).
-- Identifies Steam-related scam messages.
-- Filters out mass mention spam like `@everyone` or `@here`.
+- Detect and delete messages containing spam or scam keywords.
+- Remove messages with suspicious links (excluding trusted domains).
+- Identify Steam-related scam messages.
+- Filter mass mentions like `@everyone` and `@here`.
+
+---
 
 ## 📦 Requirements
 
 - [Node.js](https://nodejs.org/) (v22.14.0 or higher recommended)
-- A Discord bot token
-- Discord server with bot invited and proper permissions
+- A valid Discord bot token
+- A Discord server with proper bot permissions
+
+---
 
 ## ⚙️ Setup Instructions
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/discord-antispam-bot.git
-   cd discord-antispam-bot
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/discord-antispam-bot.git
+cd discord-antispam-bot
 ````
 
-2. **Install dependencies:**
+### 2. Install Dependencies
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-3. **Create a `.env` file:**
+### 3. Configure Environment Variables
 
-   Inside the root directory, create a `.env` file and add your bot token:
+Create a `.env` file in the root directory:
 
-   ```env
-   BOT_TOKEN=your_discord_bot_token_here
-   ```
+```env
+BOT_TOKEN=your_discord_bot_token_here
+```
 
-4. **Run the bot:**
+### 4. Run the Bot
 
-   ```bash
-   node index.js
-   ```
+```bash
+node index.js
+```
+
+---
 
 ## 🔒 Whitelisted Domains
 
@@ -52,23 +61,29 @@ Messages containing links from these domains will be allowed:
 * tiktok.com
 * envy217.com
 
+---
+
 ## 📁 Project Structure
 
 ```
 discord-antispam-bot/
-├── index.js
-├── .env
-├── README.md
-├── package.json
+├── index.js       # Main bot script
+├── .env.example   # change name to .env
+├── README.md      # Documentation
+├── package.json   # Dependencies and metadata
 ```
+
+---
 
 ## 🛡️ Permissions Required
 
-Ensure your bot has the following permissions in your Discord server:
+Make sure your bot has the following permissions in your Discord server:
 
-* Read Messages
-* Manage Messages (to delete spam)
-* Read Message History
+* ✅ Read Messages
+* ✅ Manage Messages (to delete spam)
+* ✅ Read Message History
+
+---
 
 ## 📄 License
 
@@ -76,6 +91,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> Feel free to contribute or report issues to improve this bot.
-
-```
+💡 **Contributions Welcome!**
+Feel free to fork this repository, open pull requests, or report any issues to help improve the bot.
