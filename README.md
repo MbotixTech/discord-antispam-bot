@@ -91,5 +91,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+## 🔗 Invite the Bot
+
+Click the link below to invite the bot to your server:
+
+👉 [Invite the Anti-Spam Bot](https://discord.com/oauth2/authorize?client_id=1372146543670460436&permissions=17179943984&integration_type=0&scope=bot)
+
+Make sure to give it the required permissions for full functionality.
+
 💡 **Contributions Welcome!**
 Feel free to fork this repository, open pull requests, or report any issues to help improve the bot.
